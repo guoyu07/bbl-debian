@@ -1,0 +1,11 @@
+Package: boshbootloader
+Version: 5.3.0-1
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: ruby (>=2.1.5)
+Maintainer: Evan Farrar <efarrar@pivotal.io>
+Description: BOSH Bootloader
+ This is a command line utility for standing up a CloudFoundry or Concourse installation on an IAAS.
+ This CLI supports bootstrapping a CloudFoundry or Concourse installation on AWS and GCP.
+ Azure support is in progress.
